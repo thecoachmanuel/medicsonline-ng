@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@/components/*": ["app/components/*"],
+      "@/pages/*": ["app/pages/*"],
+      "@/hooks/*": ["app/hooks/*"],
+      "@/utils/*": ["app/utils/*"],
+      "@/lib/*": ["lib/*"],
+      "@/app/*": ["app/*"],
+      "@/server/*": ["server/*"]
+    },
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src"]
+}
